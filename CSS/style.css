@@ -1,3 +1,105 @@
 *{
-    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif system-ui;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/*================= 1. Header & Hero ==============*/
+.header-container {
+    background-color: #1F2937;
+    color: white;
+    padding: 1rem 15% 5rem 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.hero-image {
+    flex: 1;
+    background-color: #1F2937;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.btn {
+    background-color: #3882F6;
+    color: #1F2937;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 36px;
+    cursor: pointer;
 }
